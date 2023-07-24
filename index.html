@@ -16,27 +16,27 @@
 
     <!-- Интерактивное меню -->
     <ul id="slide-out" class="sidenav">
-      <li><div class="user-view">
-        <div class="background">
-          <img src="images/office.jpg">
+      <li>
+        <div class="log-menu">
+            <img class="icon-cloud" src="img/cloud-head.svg" alt="cloud">
+            <h4 class="logotip">CloudBudget</h4>
         </div>
-        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-        <a href="#name"><span class="white-text name">John Doe</span></a>
-        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-      </div></li>
-      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-      <li><a href="#!">Second Link</a></li>
+      </li>
       <li><div class="divider"></div></li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      <li><a class="waves-effect" href="#about_us">Обзор</a></li>
+      <li><a class="waves-effect" href="#skills">Особенности</a></li>
+      <li><a class="waves-effect" href="#technologies">Технология</a></li>
+      <li><a class="waves-effect" href="#contacts">Контакты</a></li>
+      <li><a class="waves-effect" href="#enter">Войти</a></li>
     </ul>
     
-
     <header class="header">
         <div class="container">
             <div class="header_navbar__flex">
-                <img class="navbar-icon" src="img/cloud.svg" alt="cloud">
-                <h4 class="logo">CloudBudget</h4>
+                <div class="navbar-icon-logo">
+                    <img class="navbar-icon" src="img/cloud.svg" alt="cloud">
+                    <h4 class="logo">CloudBudget</h4>
+                </div>
                 <ul class="navbar__flex_menu">
                     <li class="navbar__flex_menu-item"><a href="#about_us">Обзор</a></li>
                     <li class="navbar__flex_menu-item"><a href="#skills">Особенности</a></li>
@@ -44,8 +44,10 @@
                     <li class="navbar__flex_menu-item"><a href="#contacts">Контакты</a></li>
                     <li class="navbar__flex_menu-item"><a href="#enter">Войти</a></li>
                 </ul>
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <button class="navbar-btn" id="enter">Вход</button>
+                <div class="navbar_menu_trigger">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <button class="navbar-btn" id="enter">Вход</button>
+                </div>
             </div>
             <h1 class="header-h1">CloudBudget</h1>
             <p class="header-p">Управление бюджетом в для всех. Всего 69,95 € в месяц после 7-дневной пробной версии за 4,99 €</p>

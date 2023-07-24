@@ -40,6 +40,9 @@ button:hover {
     display: flex;
     margin-bottom: 170px;
 }
+.navbar-icon-logo {
+    display: flex;
+}
 .navbar-icon {
     width: 29px;
     height: 29px;
@@ -414,4 +417,252 @@ button:hover {
 .footer_bottom {
     background-color: #FFF;
     height: 222px;
+}
+@media screen and (max-width: 1439px) {
+    .container {
+        padding: 0 80px;
+    }
+    .header_navbar__flex {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .navbar__flex_menu {
+        margin-right: 0;
+    }
+    .header-btn {
+        margin: 0 43%;
+    }
+    .about_us__flex {
+        justify-content: center;
+    }
+    .skills__grid {
+        justify-items: center;
+    }
+    .technologies__grid {
+        justify-items: center;
+    }
+    .advantages__flex {
+        justify-content: center;
+    }
+    .contacts__flex {
+        justify-content: center;
+    }
+    .footer {
+        padding-left: 95px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .about_us__flex_text {
+        margin-right: 70px;
+    }
+    .skills__grid {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 150px;
+    }
+    .technologies__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .advantages__flex-text {
+        margin-right: 70px;
+    }
+    .contacts__flex-text {
+        margin-top: 0;
+        margin-right: 70px;
+    }
+    .contacts-h2 {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .about_us__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_us__flex_text {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 998px) {
+    .container {
+        padding: 0 50px;
+    }
+    .navbar__flex_menu {
+        display: none;
+    }
+    .sidenav-trigger {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        color: #FFF;
+        margin-right: 30px;
+    }
+    .material-icons {
+        font-size: 40px;
+    }
+    .navbar_menu_trigger {
+        display: flex;
+    }
+    .sidenav {
+        width: 50%;
+    }
+    .icon-cloud {
+        margin-right: 10px;
+        margin-top: 7px;
+        width: 40px;
+    }
+    .log-menu {
+        display: flex;
+        margin-left: 30px;
+    }
+    .logotip {
+        font-size: 32px;
+    }
+    .sidenav .divider {
+        margin-bottom: 30px;
+    }
+    .sidenav .waves-effect {
+        font-size: 22px;
+        padding-left: 80px;
+        margin-bottom: 20px;
+    }
+    .advantages__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__flex-text {
+        margin: 0 0 30px 0;
+    }
+    .contacts__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts__flex-text {
+        margin: 0 0 30px 0;
+    }
+    .contacts-btn {
+        margin-left: 55px;
+    }
+}
+@media screen and (max-width: 875px) {
+    .skills__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-btn {
+        margin: 0 39%; 
+    }
+}
+@media screen and (max-width: 625px) {
+    .container {
+        padding: 0 30px;
+    }
+    .header-h1 {
+        font-size: 48px;
+    }
+    .header-p {
+        font-size: 20px;
+    }
+    .header-btn {
+        margin: 0 33%; 
+    }
+    .technologies__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer {
+        padding-left: 50px;
+    }
+    .contacts-form-name {
+        width: 434px;
+    }
+    .contacts-form-tel {
+        width: 434px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header-h1 {
+        font-size: 36px;
+    }
+    .header-p {
+        font-size: 16px;
+        width: 300px;
+    }
+    .about_us-h2 {
+        width: 300px;
+    }
+    .about_us-p {
+        width: 300px;
+    }
+    .about_us-img {
+        width: 300px;
+        height: 210px;
+    }
+    .advantages__flex-text {
+        width: 300px;
+    }
+    .advantages-img {
+        width: 300px;
+        height: 210px;
+    }
+    .contacts__flex-text {
+        width: 300px;
+    }
+    .contacts-form-name {
+        width: 300px;
+    }
+    .contacts-form-tel {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 448px) {
+    .header_navbar__flex {
+        flex-wrap: wrap;
+    }
+    .navbar-icon-logo {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    .navbar-icon {
+        margin-top: 0;
+    }
+    .logo {
+        margin-top: 4px;
+    }
+    .sidenav-trigger {
+        margin-right: 10px;
+    }
+    .material-icons {
+        font-size: 30px;
+    }
+    .navbar-btn {
+        height: 30px;
+        font-size: 12px;
+    }
+    .skills__grid-item {
+        width: 230px;
+        height: 164px;
+        padding: 30px;
+    }
+    .skills__grid-item-inner {
+        top: 124px;
+        right: 15px;
+        width: 200px;
+        height: 150px;
+        padding: 10px 3px;
+    }
+    .skills-h4 {
+        font-size: 13px;
+        width: 190px;
+    }
+    .skills-p {
+        font-size: 10px;
+        width: 190px;
+    }
+    .skills-a {
+        margin: 0 60px;
+    }
 }
