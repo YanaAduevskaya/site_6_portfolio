@@ -620,10 +620,9 @@ button:hover {
 }
 @media screen and (max-width: 448px) {
     .header_navbar__flex {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .navbar-icon-logo {
-        margin-right: 30px;
         margin-bottom: 20px;
     }
     .navbar-icon {
@@ -641,6 +640,9 @@ button:hover {
     .navbar-btn {
         height: 30px;
         font-size: 12px;
+    }
+    .header-btn {
+        margin: 0 28vw; 
     }
     .skills__grid-item {
         width: 230px;
