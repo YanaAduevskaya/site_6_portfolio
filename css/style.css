@@ -558,6 +558,9 @@ button:hover {
     .container {
         padding: 0 30px;
     }
+    .sidenav {
+        width: 80%;
+    }
     .header-h1 {
         font-size: 48px;
     }
@@ -669,6 +672,16 @@ button:hover {
     }
 }
 @media screen and (max-width: 382px) {
+    .logotip {
+        font-size: 24px;
+    }
+    .icon-cloud {
+        width: 30px;
+    }
+    .sidenav .waves-effect {
+        font-size: 20px;
+        padding-left: 50px;
+    }
     .header-h1 {
         font-size: 32px;
     }
